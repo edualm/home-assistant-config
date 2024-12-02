@@ -1,0 +1,25 @@
+- climate:
+    current_temperature_dp: '3'
+    entity_category: config
+    fan_speed_dp: '28'
+    fan_speed_list: auto,zero,low,middle,high
+    friendly_name: Termostato
+    hvac_action_set:
+      heating: opened
+      idle: closed
+    hvac_mode_dp: '4'
+    hvac_mode_set:
+      cool: Cooling
+      heat: Heating
+    icon: ''
+    id: '1'
+    max_temperature: 35.0
+    min_temperature: 7.0
+    platform: climate
+    precision: '0.1'
+    preset_set: {}
+    target_precision: '0.1'
+    target_temperature_dp: '2'
+    temperature_step: '0.1'
+    temperature_unit: celsius
+
