@@ -1,8 +1,8 @@
 #!/bin/sh
 
 VM_NAME="haos"  # Name of the VM
-BACKUP_XML="/opt/data/backup.xml" # Path to the backup XML configuration
-BACKUP_PATH="/opt/backup/haos_backup.qcow2"  # Directory to store local backups
+BACKUP_XML="/opt/haos/backup.xml" # Path to the backup XML configuration
+BACKUP_PATH="/opt/haos/backup/haos_backup.qcow2"  # Directory to store local backups
 S3_BUCKET="ha-camelias-backup"  # S3 bucket name
 DATE=$(date +%Y%m%d%H%M%S)  # Timestamp for backup
 BACKUP_NAME="${VM_NAME}_backup_${DATE}.qcow2"  # Backup file name

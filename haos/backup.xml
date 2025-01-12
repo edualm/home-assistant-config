@@ -1,0 +1,8 @@
+<domainbackup mode='push'>
+  <disks>
+    <disk name='sda' backup='yes' type='file' backupmode='full'>
+      <driver type='qcow2' />
+      <target file='/opt/backup/haos_backup.qcow2' />
+    </disk>
+  </disks>
+</domainbackup>
